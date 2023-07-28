@@ -25,7 +25,7 @@ function App() {
 					<NavBar />
 				</GridItem>
 				<Show above='lg'>
-					<GridItem area='aside'>
+					<GridItem area='aside' marginRight='20px'>
 						<GenreList
 							selectedGenre={selectedGenre}
 							onSelectGenre={setSelectedGenre}

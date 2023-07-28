@@ -39,7 +39,8 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
 									? 'bold'
 									: 'normal'
 							}
-							wordBreak='break-all'
+							whiteSpace='normal'
+							textAlign='left'
 						>
 							{genre.name}
 						</Button>
